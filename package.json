@@ -24,7 +24,8 @@
   "homepage": "https://github.com/andresbadillo/esbuild_demo#readme",
   "devDependencies": {
     "esbuild": "^0.17.11",
-    "esbuild-serve": "^1.0.1"
+    "esbuild-serve": "^1.0.1",
+    "gh-pages": "^5.0.0"
   },
   "dependencies": {
     "@types/react": "^18.0.28",
