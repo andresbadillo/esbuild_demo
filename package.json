@@ -7,7 +7,8 @@
     "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=public/bundle.js",
     "build:dev": "node esbuild.dev.js",
     "start": "node esbuild.config.js -w",
-    "open": "wslview public/index.html"
+    "open": "wslview public/index.html",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
